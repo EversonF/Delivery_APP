@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               Image.asset('assets/banners/banner_promo.png'),
-              Text("Bem avalidaos"),
+              Text("Bem avaliados"),
               Column(
                 spacing: 16.0,
                 children: List.generate(restaurantData.listRestaurant.length, (
